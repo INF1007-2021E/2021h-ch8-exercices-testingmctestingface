@@ -16,3 +16,6 @@ def print_recipe(ingredients: dict) -> None:
     else:
         print("La recette demandée n'existe pas!")
         print(f"Les recettes existantes sont: {list(ingredients.keys())}")
+
+if __name__ == '__main__':
+    print(add_recipes(dictionnaire))
